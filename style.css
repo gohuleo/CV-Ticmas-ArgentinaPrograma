@@ -14,6 +14,11 @@ body{
 }
 
 #foto_nombre img{
+    max-width: 132px;
+    height: 132px;
+
+    background-color: black;
+
     text-align: center;
     border-radius:50%;
     border: 2px solid black;
@@ -23,6 +28,8 @@ body{
 }
 
 h1{
+    height: 67px;
+
     text-align: center;
     margin: 0;
     margin-top: -40px;
@@ -51,6 +58,7 @@ nav ul{
     display: flex;
 
     justify-content: center;
+    align-items: center;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 
@@ -58,18 +66,18 @@ nav ul{
     padding-left: 0;
 }
 
-.espacio_de{
-    padding-right: 3%;
-}
 
 nav a{
     list-style-type: none;
 
     padding: 20px 20px 20px 20px;
+    min-height: 25px;
 
     transition : 200ms;
     transform: translateY(0);
     cursor: pointer;
+
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -122,7 +130,7 @@ section ul li{
     .icon{
         color:white;
         font-size: 25px;
-        padding: 28.5px 5% 28.5px 5%;
+        padding: 20px 5% 20px 5%;
         margin: 0 2% 0 2%;
     }
 

@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/829a3306c6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="foto_nombre">
-        <img src="" alt="Mi foto" id="foto">
+        <img src="" alt="Mi foto" id="foto" loading="eager">
         <h1 id="nombre"></h1>
     </header>
     <main>
@@ -21,9 +24,9 @@
                 <a href="#experiencia_laboral" class="icon"><li><i class="fa-solid fa-briefcase"></i></li></a>
 
 
-                <a href="#informacion_contacto" class="text-nav"><li class="espacio_de">Información de contacto</li></a>
-                <a href="#sobre_mi" class="text-nav"><li class="espacio_de">Sobre mí</li></a>
-                <a href="#formacion_academica" class="text-nav"><li class="espacio_de">Formación academica</li></a>
+                <a href="#informacion_contacto" class="text-nav"><li>Información de contacto</li></a>
+                <a href="#sobre_mi" class="text-nav"><li>Sobre mí</li></a>
+                <a href="#formacion_academica" class="text-nav"><li>Formación academica</li></a>
                 <a href="#experiencia_laboral" class="text-nav"><li>Experiencia laboral</li></a>
             </ul>
         </nav>
@@ -32,7 +35,7 @@
 
             <section>
                 <h2 id="informacion_contacto">Información de contacto</h2>
-                <p><b>Email:</b> <a href="" id="email"></a></p>
+                <p><b>Email:</b> <a href="" id="email">email.example@example.com</a></p>
                 <p><b>Número de teléfono:</b> <a href="tel:(484) 259-2965" id="num_contacto">(484) 259-2965</a></p>
             </section>
 
@@ -58,8 +61,4 @@
         </div>
     </main>
 </body>
-
-<script src="https://kit.fontawesome.com/829a3306c6.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
 </html>

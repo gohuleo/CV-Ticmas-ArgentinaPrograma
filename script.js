@@ -1,3 +1,5 @@
+// Información de usuario aleatoria
+
 document.addEventListener("DOMContentLoaded", function(){
   $(document).ready(function () {
     $.ajax({
